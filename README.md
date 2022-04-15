@@ -8,6 +8,6 @@
 
 # Enlaces 🔗
 - Enlace a [Documento]()
-- Enlace a [Icono y nombre de la aplicación](Logo.png)
+- Enlace a [Icono y nombre de la aplicación](logo.png)
 
-![alt text](Logo.png)
+![alt text](logo.png)
