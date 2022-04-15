@@ -32,7 +32,7 @@ public class NewOrder extends AppCompatActivity {
             Toast.makeText(this, "El campo Id Pedido es requeridos", Toast.LENGTH_SHORT).show();
         }else {
             int IntAmount = Integer.parseInt(AmountET.getText().toString());
-            Double DoublePrice = 28.54;
+            Double DoublePrice = 0.13;
             Double Total;
             Total = IntAmount * DoublePrice;
 

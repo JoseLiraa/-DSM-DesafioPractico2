@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">FarmaciaMedica</string>
+    <string name="Title">El detalle de su pedido</string>
+    <string name="id">Id compra:</string>
+    <string name="finish">Finalizar Compra</string>
+    <string name="DoOrder">Hacer pedido</string>
+    <string name="total">Total: $</string>
+    <string name="price">Precio: $"</string>
+    <string name="client">Cliente</string>
+    <string name="mediciene">Medicamento</string>
+
 </resources>
