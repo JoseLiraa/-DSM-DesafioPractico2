@@ -14,6 +14,7 @@
         android:layout_marginHorizontal="3dp"
         android:paddingHorizontal="5dp"
         android:paddingVertical="5dp"
+        android:background="@color/back"
         >
 
          <TextView
@@ -21,6 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="hola"
+             android:textColor="@color/white"
              android:textAppearance="?attr/textAppearanceHeadline6"
             />
 
@@ -29,8 +31,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="hola"
+            android:textColor="@color/white"
             android:textAppearance="?attr/textAppearanceBody2"
-            android:textColor="?android:attr/textColorSecondary"/>
+            />
 
         <TextView
             android:id="@+id/medicineName"
@@ -38,7 +41,7 @@
             android:layout_height="wrap_content"
             android:text="hola"
             android:textAppearance="?attr/textAppearanceBody2"
-            android:textColor="?android:attr/textColorSecondary"/>
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/price"
@@ -46,7 +49,7 @@
             android:layout_height="wrap_content"
             android:text="hola"
             android:textAppearance="?attr/textAppearanceBody2"
-            android:textColor="?android:attr/textColorSecondary"/>
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/amount"
@@ -54,7 +57,7 @@
             android:layout_height="wrap_content"
             android:text="hola"
             android:textAppearance="?attr/textAppearanceBody2"
-            android:textColor="?android:attr/textColorSecondary"/>
+            android:textColor="@color/white"/>
 
         <TextView
             android:id="@+id/total"
@@ -62,7 +65,7 @@
             android:layout_height="wrap_content"
             android:text="hola"
             android:textAppearance="?attr/textAppearanceBody2"
-            android:textColor="?android:attr/textColorSecondary"/>
+            android:textColor="@color/white"/>
 
 
 

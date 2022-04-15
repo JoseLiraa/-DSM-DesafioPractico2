@@ -2,22 +2,41 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/back"
     android:orientation="vertical">
 
-    <EditText
+    <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Su orden"
+        android:textColor="@color/white"
+        android:background="@color/aqua"
+        android:drawableBottom="@drawable/ic_stat_name"
+        android:textSize="30dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="60dp"/>
+
+    <EditText
         android:id="@+id/IdOrderET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:hint="Id pedido"
-        android:textSize="18dp"
         android:inputType="number"
-        android:layout_margin="10dp"/>
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:drawableLeft="@drawable/id"
+        android:textSize="18dp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/ClientNameET"
         android:hint="Nombre cliente"
+        android:textColor="@color/white"
+        android:drawableLeft="@drawable/person"
+        android:textColorHint="@color/white"
         android:textSize="18dp"
         android:inputType="text"
         android:layout_margin="10dp"/>
@@ -25,6 +44,9 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:drawableLeft="@drawable/hearing"
         android:id="@+id/MedicineET"
         android:hint="Medicamento"
         android:textSize="18dp"
@@ -33,6 +55,9 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:drawableLeft="@drawable/count"
         android:id="@+id/amountET"
         android:hint="Cantidad"
         android:inputType="number"
@@ -42,6 +67,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="10dp"
+        android:drawableBottom="@drawable/next"
         android:layout_marginTop="30dp"
         android:id="@+id/SaveBtn"
         android:text="Guardar"/>
