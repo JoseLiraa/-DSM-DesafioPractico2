@@ -1,4 +1,4 @@
-# Primer Desafío Practico - Desarrollo de Software para Móviles 📱💻
+# Segundo Desafío Practico - Desarrollo de Software para Móviles 📱💻
 ### Java y Android Studio ☕👽
 
 # Integrantes ✒️
