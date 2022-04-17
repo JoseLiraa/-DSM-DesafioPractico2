@@ -7,7 +7,7 @@
 - Grupo: 03L
 
 # Enlaces 🔗
-- Enlace a [Documento]()
+- Enlace a [Documento](DesafioPractico2.pdf)
 - Enlace a [Icono y nombre de la aplicación](logo.png)
 
 ![alt text](logo.png)
