@@ -8,6 +8,7 @@
 
 # Enlaces 🔗
 - Enlace a [Documento](DesafioPractico2.pdf)
+- Enlace a [Descarga del documento](https://drive.google.com/file/d/1aqW5ZL0LIjcP_InMzv2jLdvwrh3nr7N9/view?usp=sharing)
 - Enlace a [Icono y nombre de la aplicación](logo.png)
 
 ![alt text](logo.png)
