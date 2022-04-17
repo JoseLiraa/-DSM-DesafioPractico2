@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
         TimerTask task = new TimerTask() {
             @Override
             public void run() {
-                Intent intent = new Intent(MainActivity.this, HomeScreen.class);
+                Intent intent = new Intent(MainActivity.this, Menu.class);
                 startActivity(intent);
                 finish();
             }

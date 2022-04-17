@@ -36,7 +36,7 @@ public class NewOrder extends AppCompatActivity {
             Double Total;
             Total = IntAmount * DoublePrice;
 
-            Intent atras = new Intent(this, DetailOrder.class);
+            Intent atras = new Intent(this, HomeScreen.class);
             rep = new Repository(this.getApplication());
             Order order = new Order(OrderIdET.getText().toString(), ClientNameET.getText().toString(), MedicineET.getText().toString(), DoublePrice, IntAmount, Total);
             rep.insert(order);
